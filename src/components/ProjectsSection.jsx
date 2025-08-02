@@ -10,20 +10,20 @@ const projects = [
     title: "Learn2Excel - Online Skill Development Platform",
     description:
       "Interactive skill-building platform with quizzes and user engagement",
-    image: {l2e},
+    image: l2e,
     repo: "https://github.com/VaishnaviGaikwad182/Learn2Excel",
   },
   {
     title: "Personalised Learning Tool",
     description: "A full-stack personalised tool for students and teachers.",
-    image: {plp},
+    image: plp,
     repo: "https://github.com/VaishnaviGaikwad182/Personalised-Learning-Tool",
   },
   {
     title: "Sleep Disorder Prediction",
     description:
       "Identifies risk of sleep disorders based on user health and lifestyle data",
-    image: {sdp},
+    image: sdp,
     repo: "https://github.com/VaishnaviGaikwad182/Sleep_Disorder_Prediction",
   },
 ];
