@@ -1,4 +1,5 @@
 import React from 'react';
+import img from './assets/profile.jpg';
 
 export default function AboutSection() {
   return (
@@ -12,7 +13,7 @@ export default function AboutSection() {
         {/* Oval Image with ring and shadows */}
         <div className="relative z-10 w-72 h-64 md:w-80 md:h-72 rounded-full border-4 border-purple-500 p-1 bg-[#0f0f1a] overflow-hidden shadow-[0px_20px_60px_rgba(128,0,255,0.25),0px_-10px_40px_rgba(128,0,255,0.15)]">
           <img
-            src="/profile.jpg"
+            src={img}
             alt="Profile"
             className="w-full h-full rounded-full object-cover"
           />

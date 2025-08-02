@@ -1,25 +1,29 @@
 import React from "react";
 import { motion } from "framer-motion";
+import robot from './assets/robot.png';
+import l2e from './assets/l2e.png';
+import plp from './assets/plp.png';
+import sdp from './assets/sdp.png';
 
 const projects = [
   {
     title: "Learn2Excel - Online Skill Development Platform",
     description:
       "Interactive skill-building platform with quizzes and user engagement",
-    image: "/l2e.png",
+    image: {l2e},
     repo: "https://github.com/VaishnaviGaikwad182/Learn2Excel",
   },
   {
     title: "Personalised Learning Tool",
     description: "A full-stack personalised tool for students and teachers.",
-    image: "/plp.png",
+    image: {plp},
     repo: "https://github.com/VaishnaviGaikwad182/Personalised-Learning-Tool",
   },
   {
     title: "Sleep Disorder Prediction",
     description:
       "Identifies risk of sleep disorders based on user health and lifestyle data",
-    image: "/sdp.png",
+    image: {sdp},
     repo: "https://github.com/VaishnaviGaikwad182/Sleep_Disorder_Prediction",
   },
 ];
@@ -32,7 +36,7 @@ export default function ProjectsSection() {
     >
       {/* Left Tilted Robot */}
       <motion.img
-        src="/robot.png"
+        src={robot}
         alt="Left Robot"
         className="hidden md:block absolute top-10 left-20 w-46 rotate-[-25deg] opacity-80 z-10"
         initial={{ y: 0 }}
@@ -42,7 +46,7 @@ export default function ProjectsSection() {
 
       {/* Right Tilted Robot */}
       <motion.img
-        src="/robot.png"
+        src={robot}
         alt="Right Robot"
         className="hidden md:block absolute top-10 right-20 w-46 rotate-[25deg] opacity-80 z-10"
         initial={{ y: 0 }}

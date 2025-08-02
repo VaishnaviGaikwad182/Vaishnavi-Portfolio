@@ -1,7 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Instagram, Mail } from "lucide-react";
-import exampleImage from './assets/example.jpg';
+import robot from './assets/robot2.png';
+import myPDF from './assets/Vaishnavi_Gaikwad_CV.pdf'; 
+
 
 export default function HeroSection() {
   return (
@@ -74,7 +76,7 @@ export default function HeroSection() {
 
           {/* Download CV Button */}
           <a
-            href="/Vaishnavi_Gaikwad_CV.pdf"
+            href={myPDF}
             download
             className="inline-block mt-6 px-6 py-2 border border-white rounded-full hover:bg-purple-500 hover:text-white transition"
           >
@@ -92,7 +94,7 @@ export default function HeroSection() {
           transition={{ duration: 1, delay: 0.5 }}
         >
           <img
-            src={exampleImage}
+            src={robot}
             alt="robot"
             className="w-[400px] md:w-[500px] z-10 relative"
           />
