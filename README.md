@@ -1,6 +1,5 @@
 <<<<<<< HEAD
-# My-Portfolio
-My Portfolio Website
+# My Portfolio Website
 =======
 # React + Vite
 
