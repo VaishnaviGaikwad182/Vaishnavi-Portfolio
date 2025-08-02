@@ -1,14 +1,15 @@
 {
-  "name": "tailwindcss4",
+  "name": "portfolio-website",
+  "homepage": "https://VaishnaviGaikwad182.github.io/Vaishnavi-Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://VaishnaviGaikwad182.github.io/My-Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
