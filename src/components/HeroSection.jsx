@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Instagram, Mail } from "lucide-react";
+import exampleImage from './assets/example.jpg';
 
 export default function HeroSection() {
   return (
@@ -91,7 +92,7 @@ export default function HeroSection() {
           transition={{ duration: 1, delay: 0.5 }}
         >
           <img
-            src="/robot2.png"
+            src={exampleImage}
             alt="robot"
             className="w-[400px] md:w-[500px] z-10 relative"
           />
