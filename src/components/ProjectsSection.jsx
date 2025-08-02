@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import robot from './assets/robot.png';
-import l2e from './assets/l2e.png';
-import plp from './assets/plp.png';
-import sdp from './assets/sdp.png';
+import robot from '../assets/robot.png';
+import l2e from '../assets/l2e.png';
+import plp from '../assets/plp.png';
+import sdp from '../assets/sdp.png';
 
 const projects = [
   {

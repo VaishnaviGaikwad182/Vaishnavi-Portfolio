@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Instagram, Mail } from "lucide-react";
-import robot from './assets/robot2.png';
-import myPDF from './assets/Vaishnavi_Gaikwad_CV.pdf'; 
+import robot from '../assets/robot2.png';
+import myPDF from '../assets/Vaishnavi_Gaikwad_CV.pdf'; 
 
 
 export default function HeroSection() {

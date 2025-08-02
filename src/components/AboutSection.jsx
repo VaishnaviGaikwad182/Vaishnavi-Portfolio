@@ -1,5 +1,5 @@
 import React from 'react';
-import img from './assets/profile.jpg';
+import img from '../assets/profile.jpg';
 
 export default function AboutSection() {
   return (
