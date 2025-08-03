@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import robot from '../assets/robot.png';
-import l2e from '../assets/l2e.png';
-import plp from '../assets/plp.png';
-import sdp from '../assets/sdp.png';
+import robot from "../assets/robot.png";
+import l2e from "../assets/l2e.png";
+import plp from "../assets/plp.png";
+import sdp from "../assets/sdp.png";
 
 const projects = [
   {
@@ -38,7 +38,7 @@ export default function ProjectsSection() {
       <motion.img
         src={robot}
         alt="Left Robot"
-        className="hidden md:block absolute top-10 left-20 w-46 rotate-[-25deg] opacity-80 z-10"
+        className="hidden md:block absolute top-10 left-8 w-32 rotate-[-25deg] opacity-70 z-10"
         initial={{ y: 0 }}
         animate={{ y: [0, -12, 0] }}
         transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
@@ -48,7 +48,7 @@ export default function ProjectsSection() {
       <motion.img
         src={robot}
         alt="Right Robot"
-        className="hidden md:block absolute top-10 right-20 w-46 rotate-[25deg] opacity-80 z-10"
+        className="hidden md:block absolute top-10 right-8 w-32 rotate-[25deg] opacity-70 z-10"
         initial={{ y: 0 }}
         animate={{ y: [0, -12, 0] }}
         transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}

@@ -9,7 +9,7 @@ import ContactSection from './components/ContactSection';
 
 export default function App() {
   return (
-    <div className="relative bg-[#0f0f1a]">
+    <div className="relative bg-[#0f0f1a] overflow-x-hidden">
       <NavBar />
       <HeroSection />
       <AboutSection />
